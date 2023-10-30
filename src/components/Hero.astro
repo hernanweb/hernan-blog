@@ -6,17 +6,25 @@ import social from "@config/social";
 const socialItems = social.networks;
 ---
 
-<section class="bg-zinc-50 dark:bg-zinc-900">
-  <div class="mx-auto max-w-screen-lg px-4 py-0 sm:px-6 pb-6 sm:pb-12 lg:px-8">
-    <div class="flex items-start justify-between">
-      <div class="rounded-lg w-3/5">
+<section class="bg-zinc-50 dark:bg-zinc-900 ">
+  <div class="mx-auto max-w-screen-lg px-4 py-0 sm:px-6 pb-6 sm:pb-12 lg:px-8 ">
+    <div class="flex items-start justify-between ">
+      <div class="rounded-lg w-3/5 ">
         <h1
           class="text-lg md:text-2xl font-bold text-zinc-900 dark:text-white sm:text-3xl mb-0"
         >
           {config.author.name}
         </h1>
-        <p class="mt-1.5 text-sm md:text-lg text-zinc-500 dark:text-zinc-400">
-          {config.author.bio}
+        <p class="mt-2 text-lg md:text-lg text-zinc-500 dark:text-zinc-400">
+          {config.author.bio} <Image
+          class="rounded-lg w-10 md:w-10 inline transform hover:scale-125 transition"
+          width={12}
+          height={12}
+          src={config.author.avatar}
+          alt={config.author.name}
+          decoding="async"
+          loading="lazy"
+        />
         </p>
         <div class="flex space-x-5 pt-8 m-auto">
           {
@@ -31,7 +39,7 @@ const socialItems = social.networks;
         </div>
       </div>
       <div class="rounded-lg">
-        <figure class="right-0">
+        <!-- <figure class="right-0">
           <Image
             class="rounded-lg w-24 md:w-32"
             width={512}
@@ -41,7 +49,7 @@ const socialItems = social.networks;
             decoding="async"
             loading="lazy"
           />
-        </figure>
+        </figure> -->
       </div>
     </div>
   </div>
