@@ -10,6 +10,11 @@ import { slugify } from "@utils/slug";
 
 type Props = CollectionEntry<"blog">["data"];
 
+/* JamComments */
+import JamComments from '@jam-comments/astro';
+const { url } = Astro.props;
+
+
 const { title, description, pubDate, heroImage, categories, tags } =
   Astro.props;
 ---
@@ -85,4 +90,7 @@ const { title, description, pubDate, heroImage, categories, tags } =
       }
     </div>
   </article>
+  <br />
+  <h2  class="text-lg md:text-2xl font-bold sm:text-3xl mb-0">Déjame tu comentario</h2>
+  <JamComments path={url} />
 </Base>

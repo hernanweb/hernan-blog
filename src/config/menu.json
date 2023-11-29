@@ -2,7 +2,11 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "https://www.hernanweb.com/"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
     },
     {
       "name": "Qué mismo?",

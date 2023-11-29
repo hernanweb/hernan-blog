@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "EV0 ",
+    "title": "El BLog De Hernán",
     "base_url": "https://hernanweb.com",
     "base_path": "/",
     "favicon": "/favicon.ico",
@@ -18,7 +18,7 @@
     "meta_description": "Blog de Tecnología y algo más"
   },
   "author": {
-    "name": "HernánBlog",
+    "name": "El Blog De Hernán",
     "avatar": "/zhumir.png",
     "bio": "Bienvenido a mi blog"
   }

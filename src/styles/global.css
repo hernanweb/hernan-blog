@@ -12,7 +12,7 @@
   h4,
   h5,
   h6 {
-    @apply text-zinc-800 dark:text-zinc-200 !important;
+    @apply text-zinc-800 dark:text-purple-700 !important;
   }
   p,
   li,
@@ -51,7 +51,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .sun {
-  @apply stroke-zinc-500 transition-all;
+  @apply stroke-yellow-600 transition-all;
 }
 .moon {
   @apply stroke-transparent transition-all;
@@ -60,7 +60,7 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply stroke-transparent;
 }
 .dark .moon {
-  @apply stroke-zinc-400;
+  @apply stroke-purple-700;
 }
 #themeToggle:hover .sun {
   @apply stroke-zinc-800;
